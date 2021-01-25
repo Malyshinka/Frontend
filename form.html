@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма оформления заказа на сайте!</title>
+</head>
+<body>
+    <form action="#" method="GET">
+    <div>
+        <p>ФИО:</p>
+        <p><input required placeholder="Фамилия" tabindex="1" type="text" name="username">
+        <input required placeholder="Имя" tabindex="2"  type="text" name="second name">
+        <input tabindex="3" required placeholder="Отчество" type="text" name="third name">    
+    </p>
+    </div>
+
+    <div>
+        <p>E-mail:</p>
+        <p><input required placeholder="example@example.com" tabindex="4" type="email" name="email"></p>
+    </div>
+
+    <div>
+        <p>Телефон:</p>
+        <p><input required tabindex="5" type="tel" name="phone"></p>
+    </div>
+
+    <div>
+        <p>Наименование товара:</p>
+        <select tabindex="6" required name="goods">
+            <option value="number_1">Товар номер 1</option>
+            <option value="number_2">Товар номер 2</option>
+            <option value="number_3">Товар номер 3</option>
+            <option value="number_4">Товар номер 4</option>
+        </select>
+    </div>
+
+    <div>
+        <p>Количество:</p>
+        <p><input tabindex="7" type="number" name="quantity" min="1" max="100"></p>
+    </div>
+
+    <div>
+        <p>Дата доставки:</p>
+        <div><input tabindex="8" type="date" name="date"></div>
+    </div>
+
+    <div>
+        <p><button tabindex="9" type="submit">Отправить</button> 
+        <button tabindex="10" type="reset">Сбросить</button>
+        </p>   
+    </div>
+
+    </form>    
+</body>
+</html>
